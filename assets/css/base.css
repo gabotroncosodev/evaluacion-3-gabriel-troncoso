@@ -1,0 +1,17 @@
+@charset "UTF-8";
+:root {
+  --color-primario:#002A4A;
+  --w-80:80%;
+  /*Colores*/
+  --color-negro:#000; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*tamaños contenedores*/
+.contenedor-base {
+  padding: 10% 0; }
+
+/*# sourceMappingURL=base.css.map */
