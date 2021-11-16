@@ -1,6 +1,14 @@
 .header-principal {
   height: 70px;
   width: 100%;
-  background-color: #e00000; }
+  background-color: var(--color-negro); }
+  .header-principal nav {
+    display: var(--disp-flex);
+    justify-content: space-between; }
+    .header-principal nav p {
+      color: var(--color-blanco);
+      font-size: var(--fs-45); }
+    .header-principal nav ul a {
+      color: var(--color-blanco); }
 
 /*# sourceMappingURL=header.css.map */

@@ -1,0 +1,33 @@
+$color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+$color-fondo-buscador:var(--color-fondo-buscador);
+
+@mixin centrar-centrar {
+    display: $display-flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.section-banner{
+    height: 300px;
+    background: url(../img/banner.png);
+    background-size: cover;
+    @include centrar-centrar();
+    color: $color-blanco;
+    .texto-banner{
+        position: relative;
+        bottom: 10%;
+        .precio-txt-banner{        
+            display: flex;
+            p{
+                font-size: var(--fs-10);
+            }
+            .precio-banner{
+                font-size: var(--fs-25);
+            }
+        }
+    }
+    
+    
+}

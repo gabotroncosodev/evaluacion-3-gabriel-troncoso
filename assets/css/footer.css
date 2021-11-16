@@ -1,3 +1,31 @@
-
+.footer-principal {
+  background-color: var(--color-negro); }
+  .footer-principal .fila-footer nav {
+    display: var(--disp-flex);
+    justify-content: space-between; }
+    .footer-principal .fila-footer nav ul {
+      display: var(--disp-flex);
+      flex-direction: column; }
+      .footer-principal .fila-footer nav ul a {
+        color: var(--color-blanco); }
+  .footer-principal .fila-info-footer {
+    display: var(--disp-flex);
+    justify-content: space-between; }
+    .footer-principal .fila-info-footer .col-info-footer {
+      color: var(--color-blanco); }
+  .footer-principal .fila-terminos-footer {
+    display: var(--disp-flex);
+    justify-content: center;
+    align-items: center; }
+    .footer-principal .fila-terminos-footer a {
+      color: var(--color-blanco); }
+  .footer-principal .copyright-footer {
+    display: var(--disp-flex);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: var(--color-fondo-buscador); }
+    .footer-principal .copyright-footer a, .footer-principal .copyright-footer p {
+      color: var(--color-blanco); }
 
 /*# sourceMappingURL=footer.css.map */

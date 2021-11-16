@@ -1,8 +1,23 @@
 $color-primario:var(--color-primario);
 $color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
 
 .header-principal{
     height: 70px;
     width: 100%;
-    background-color: rgb(224, 0, 0);  
+    background-color: $color-negro;  
+    nav{
+        display: $display-flex;
+        justify-content: space-between;
+        p{
+            color: $color-blanco;
+            font-size: var(--fs-45);
+        }
+        ul{
+            a{
+                color: $color-blanco;
+            }
+        }
+    }
 }

@@ -1,17 +1,149 @@
 @charset "UTF-8";
 :root {
-  --color-primario:#002A4A;
-  --w-80:80%;
   /*Colores*/
-  --color-negro:#000; }
+  --color-primario:#004B84;
+  --color-secundario:#FD684F;
+  --color-terciario:#88BE55;
+  --color-fondo-buscador:#002A4A;
+  --color-negro:#000;
+  --color-blanco:#fff;
+  /*Display*/
+  --disp-flex:flex;
+  /*Tamaños fuentes*/
+  --fs-10:62.5%;
+  --fs-15:93.75%;
+  --fs-16:100%;
+  --fs-20:125%;
+  --fs-25:156.25%;
+  --fs-30:187.5%;
+  --fs-35:218.75%;
+  --fs-40:250%;
+  --fs-45:281.25%;
+  --fs-50:312.5%;
+  --fs-55:343.75%;
+  --fs-60:375%; }
 
+/*Aspectos generales*/
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
 
 /*tamaños contenedores*/
 .contenedor-base {
-  padding: 10% 0; }
+  padding: 0 10%; }
+
+.contenedor-100 {
+  width: 100%; }
+
+.contenedor-90 {
+  width: 90%; }
+
+.contenedor-85 {
+  width: 85%; }
+
+.contenedor-80 {
+  width: 80%; }
+
+.contenedor-75 {
+  width: 75%; }
+
+.contenedor-70 {
+  width: 70%; }
+
+.contenedor-60 {
+  width: 60%; }
+
+.contenedor-50 {
+  width: 50%; }
+
+.contenedor-45 {
+  width: 45%; }
+
+.contenedor-40 {
+  width: 40%; }
+
+.contenedor-32 {
+  width: 32%; }
+
+.contenedor-30 {
+  width: 30%; }
+
+.contenedor-25 {
+  width: 25%; }
+
+.contenedor-24 {
+  width: 24%; }
+
+.contenedor-20 {
+  width: 20%; }
+
+.contenedor-15 {
+  width: 15%; }
+
+/*padding*/
+.p-1 {
+  padding: 1%; }
+
+.p-2 {
+  padding: 2%; }
+
+.p-3 {
+  padding: 3%; }
+
+.p-4 {
+  padding: 4%; }
+
+.p-5 {
+  padding: 5%; }
+
+.p-6 {
+  padding: 6%; }
+
+.py-1 {
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+.py-2 {
+  padding-top: 2%;
+  padding-bottom: 2%; }
+
+.py-3 {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.py-4 {
+  padding-top: 4%;
+  padding-bottom: 4%; }
+
+.py-5 {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.py-6 {
+  padding-top: 6%;
+  padding-bottom: 6%; }
+
+.px-1 {
+  padding: 1% 0; }
+
+.px-2 {
+  padding: 2% 0; }
+
+.px-3 {
+  padding: 3% 0; }
+
+.px-4 {
+  padding: 4% 0; }
+
+.px-5 {
+  padding: 5% 0; }
+
+.px-6 {
+  padding: 6% 0; }
 
 /*# sourceMappingURL=base.css.map */

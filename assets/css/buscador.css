@@ -1,3 +1,33 @@
-
+.section-buscador .contenedor-buscador {
+  background-color: var(--color-fondo-buscador);
+  display: var(--disp-flex);
+  justify-content: space-between; }
+  .section-buscador .contenedor-buscador .buscador-menu .opcion-menu-buscador {
+    display: var(--disp-flex);
+    background-color: var(--color-primario);
+    color: var(--color-blanco); }
+  .section-buscador .contenedor-buscador .buscador-menu .vuelos {
+    background-color: green; }
+  .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda {
+    display: var(--disp-flex);
+    justify-content: space-between; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda {
+      background-color: var(--color-blanco);
+      border-radius: 2px; }
+      .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda .contenedor-busqueda p {
+        font-size: var(--fs-10); }
+  .section-buscador .contenedor-buscador .buscador-opciones .contenedor-check-viaje {
+    display: var(--disp-flex);
+    justify-content: space-between;
+    color: var(--color-blanco); }
+  .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha {
+    display: var(--disp-flex);
+    justify-content: space-between; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda {
+      background-color: var(--color-blanco);
+      display: var(--disp-flex);
+      align-items: center; }
+      .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda .contenedor-ico-busqueda svg {
+        width: 100%; }
 
 /*# sourceMappingURL=buscador.css.map */

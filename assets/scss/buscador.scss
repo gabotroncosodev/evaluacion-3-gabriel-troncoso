@@ -1,0 +1,60 @@
+$color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+$color-fondo-buscador:var(--color-fondo-buscador);
+$color-primario:var(--color-primario);
+
+@mixin flex-elementos {
+    display: $display-flex;
+    justify-content: space-between;
+}
+
+.section-buscador{ 
+    .contenedor-buscador{   
+        background-color: $color-fondo-buscador;        
+        display: $display-flex;
+        justify-content: space-between;
+        .buscador-menu{
+            .opcion-menu-buscador{
+                display: $display-flex;
+                background-color: $color-primario;
+                color: $color-blanco;
+            }
+            .vuelos{
+                background-color: green;
+            }
+        }
+        .buscador-opciones{
+            .contenedor-rutas-busqueda{
+                @include flex-elementos();
+                .contenedor-busqueda{
+                    background-color: $color-blanco;
+                    border-radius: 2px;
+                    p{
+                        font-size: var(--fs-10);
+                    }
+                    
+                }
+            }
+            .contenedor-check-viaje{
+                @include flex-elementos();
+                color: $color-blanco;
+            }
+            .contenedor-rutas-fecha{                
+                @include flex-elementos();
+                .contenedor-busqueda{                    
+                    background-color: $color-blanco;
+                    display: $display-flex;
+                    align-items: center;
+                    .contenedor-ico-busqueda{
+                        svg{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+            
+        }
+    }
+}
