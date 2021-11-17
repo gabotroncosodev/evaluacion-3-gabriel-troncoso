@@ -1,14 +1,23 @@
 .header-principal {
-  height: 70px;
-  width: 100%;
-  background-color: var(--color-negro); }
-  .header-principal nav {
+  height: 80px;
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  display: var(--disp-flex);
+  align-items: center;
+  position: relative; }
+  .header-principal .logo-header {
+    position: absolute;
+    left: 5px; }
+    .header-principal .logo-header p {
+      font-weight: 800;
+      font-family: "Poppins", sans-serif; }
+  .header-principal nav ul {
     display: var(--disp-flex);
-    justify-content: space-between; }
-    .header-principal nav p {
-      color: var(--color-blanco);
-      font-size: var(--fs-45); }
+    justify-content: flex-end; }
     .header-principal nav ul a {
-      color: var(--color-blanco); }
+      font-size: var(--fs-13);
+      width: 9%;
+      color: var(--color-blanco);
+      margin-left: 1%; }
 
 /*# sourceMappingURL=header.css.map */

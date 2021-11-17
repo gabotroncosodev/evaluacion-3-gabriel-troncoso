@@ -2,12 +2,6 @@
   background-color: var(--color-fondo-buscador);
   display: var(--disp-flex);
   justify-content: space-between; }
-  .section-buscador .contenedor-buscador .buscador-menu .opcion-menu-buscador {
-    display: var(--disp-flex);
-    background-color: var(--color-primario);
-    color: var(--color-blanco); }
-  .section-buscador .contenedor-buscador .buscador-menu .vuelos {
-    background-color: green; }
   .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda {
     display: var(--disp-flex);
     justify-content: space-between; }
@@ -29,5 +23,10 @@
       align-items: center; }
       .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-fecha .contenedor-busqueda .contenedor-ico-busqueda svg {
         width: 100%; }
+  .section-buscador .contenedor-buscador .buscador-opciones .contenedor-mas-opciones-busqueda {
+    display: var(--disp-flex);
+    height: 100%; }
+    .section-buscador .contenedor-buscador .buscador-opciones .contenedor-mas-opciones-busqueda .col-mas-opciones .btn-naranjo .contenedor-50 {
+      display: var(--disp-flex); }
 
 /*# sourceMappingURL=buscador.css.map */

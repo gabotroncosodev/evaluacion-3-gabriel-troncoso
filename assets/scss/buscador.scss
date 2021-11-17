@@ -13,17 +13,7 @@ $color-primario:var(--color-primario);
     .contenedor-buscador{   
         background-color: $color-fondo-buscador;        
         display: $display-flex;
-        justify-content: space-between;
-        .buscador-menu{
-            .opcion-menu-buscador{
-                display: $display-flex;
-                background-color: $color-primario;
-                color: $color-blanco;
-            }
-            .vuelos{
-                background-color: green;
-            }
-        }
+        justify-content: space-between;        
         .buscador-opciones{
             .contenedor-rutas-busqueda{
                 @include flex-elementos();
@@ -32,8 +22,7 @@ $color-primario:var(--color-primario);
                     border-radius: 2px;
                     p{
                         font-size: var(--fs-10);
-                    }
-                    
+                    }                    
                 }
             }
             .contenedor-check-viaje{
@@ -53,6 +42,13 @@ $color-primario:var(--color-primario);
                     }
                 }
 
+            }
+            .contenedor-mas-opciones-busqueda{                
+                display: $display-flex;
+                height: 100%;
+                .col-mas-opciones .btn-naranjo .contenedor-50{
+                    display: $display-flex;
+                }
             }
             
         }

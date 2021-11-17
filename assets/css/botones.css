@@ -1,3 +1,26 @@
+.boton-naranjo {
+  padding: 5px;
+  background-color: var(--color-secundario);
+  color: var(--color-blanco);
+  border-radius: 5px;
+  text-align: center; }
+  .boton-naranjo a {
+    color: var(--color-blanco);
+    font-weight: 700; }
 
+.boton-barra-buscador {
+  padding: 5px; }
+  .boton-barra-buscador a {
+    display: var(--disp-flex);
+    height: 50px; }
+    .boton-barra-buscador a .svg-contenedor-ico-buscador {
+      height: 100%;
+      display: var(--disp-flex);
+      align-items: center;
+      justify-content: center; }
+    .boton-barra-buscador a .txt-contenedor-btn-buscador {
+      display: var(--disp-flex);
+      align-items: center;
+      color: var(--color-blanco); }
 
 /*# sourceMappingURL=botones.css.map */

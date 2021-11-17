@@ -11,10 +11,10 @@
 </head>
 <body>
     <header class="header-principal">
-        <nav>
-            <!-- <div class="logo-header">
-                <p>Logo</p>    
-            </div>  -->            
+        <div class="logo-header">
+            <p class="fs-60">Logo</p>    
+        </div>  
+        <nav class="contenedor-90">                
             <ul>
                 <a href="#">Inicio</a>
                 <a href="#">Paquetes</a>
@@ -28,46 +28,123 @@
     </header>
     <main>
         <section class="section-banner">
-            <div class="texto-banner">
+            <div class="caja-texto-banner">
                 <h2>VOLVAMOS A VIAJAR</h2>
                 <h2>Isla de Pascua</h2>
                 <p>Vuelo + hotel</p>
                 <div class="contenedor-txt-precio py-3">
                     <div class="precio-txt-banner">
                         <div>
-                            <p>Desde</p>
-                            <p>CLP$</p>
+                            <p class="fs-9">Desde</p>
+                            <p class="fs-12">CLP$</p>
                         </div>
-                        <p class="precio-banner">860.000</p>
-                    </div>
+                        <p class="fs-30 mx-2">860.000</p>                                               
+                    </div> 
+                    <div class="boton-naranjo contenedor-60">
+                            <a href="#">Cotiza tus fechas</a>
+                        </div> 
                 </div>
+                
             </div>
         </section>
 
         <section class="section-buscador contenedor-base">
             <div class="contenedor-buscador contenedor-100">
-                <!--***************Area barra buscador -->
-                <div class="buscador-menu contenedor-24">
-                    <div class="opcion-menu-buscador vuelos p-5 ">
-                        <div class="ico-opcion-menu-buscador contenedor-25 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="23.518" height="16.853" viewBox="0 0 23.518 16.853">
-                                <path id="plane" d="M2.8,10.394a.411.411,0,0,0-.2.539l.925,1.985a.41.41,0,0,0,.543.2l6.987-3.264-.633,6.617a.411.411,0,0,0,.135.345,1.794,1.794,0,0,0,1.085.411,1.321,1.321,0,0,0,.325-.041,2.089,2.089,0,0,0,1.307-1.517l1.917-5.678.832-2.464,5.446-2.54c1.6-.748,2.429-2.264,1.874-3.448A2.081,2.081,0,0,0,21.738.419a3.81,3.81,0,0,0-2.244.345L13.21,3.711,6.453,1.069a2.085,2.085,0,0,0-2,.029,1.676,1.676,0,0,0-.613,1.327.411.411,0,0,0,.177.325L8.57,5.877,5.964,7.11,1.6,6a.411.411,0,0,0-.456.2L.05,8.158a.411.411,0,0,0,.214.58L3.5,10.074ZM4.686,2.22a.7.7,0,0,1,.247-.444c.234-.169.662-.144,1.233.07l6.017,2.347L9.437,5.475ZM.987,8.154,1.7,6.884l4.2,1.044A.412.412,0,0,0,6.178,7.9L19.844,1.521a3,3,0,0,1,1.755-.28,1.287,1.287,0,0,1,1,.649c.345.74-.333,1.821-1.48,2.355l-4.735,2.22.288-.851a.418.418,0,1,0-.793-.263L12.5,15.417c-.2.571-.452.913-.732.986a.7.7,0,0,1-.5-.094l.822-8.631a.413.413,0,0,0-.822-.078l-.127,1.319L4.086,12.207l-.579-1.233,1.159-.542a.411.411,0,0,0,0-.752Zm0,0" transform="translate(0 -0.376)" fill="#fff"/>
-                              </svg>
-                        </div> 
-                        <p>Vuelos</p>
+                <!--***************Area barra buscador -->  
+                <div class="buscador-menu contenedor-25">
+                    <div class="boton-barra-buscador contenedor-100 bg-secundario">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-30">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.518" height="16.853" viewBox="0 0 23.518 16.853">
+                                    <path id="plane" d="M2.8,10.394a.411.411,0,0,0-.2.539l.925,1.985a.41.41,0,0,0,.543.2l6.987-3.264-.633,6.617a.411.411,0,0,0,.135.345,1.794,1.794,0,0,0,1.085.411,1.321,1.321,0,0,0,.325-.041,2.089,2.089,0,0,0,1.307-1.517l1.917-5.678.832-2.464,5.446-2.54c1.6-.748,2.429-2.264,1.874-3.448A2.081,2.081,0,0,0,21.738.419a3.81,3.81,0,0,0-2.244.345L13.21,3.711,6.453,1.069a2.085,2.085,0,0,0-2,.029,1.676,1.676,0,0,0-.613,1.327.411.411,0,0,0,.177.325L8.57,5.877,5.964,7.11,1.6,6a.411.411,0,0,0-.456.2L.05,8.158a.411.411,0,0,0,.214.58L3.5,10.074ZM4.686,2.22a.7.7,0,0,1,.247-.444c.234-.169.662-.144,1.233.07l6.017,2.347L9.437,5.475ZM.987,8.154,1.7,6.884l4.2,1.044A.412.412,0,0,0,6.178,7.9L19.844,1.521a3,3,0,0,1,1.755-.28,1.287,1.287,0,0,1,1,.649c.345.74-.333,1.821-1.48,2.355l-4.735,2.22.288-.851a.418.418,0,1,0-.793-.263L12.5,15.417c-.2.571-.452.913-.732.986a.7.7,0,0,1-.5-.094l.822-8.631a.413.413,0,0,0-.822-.078l-.127,1.319L4.086,12.207l-.579-1.233,1.159-.542a.411.411,0,0,0,0-.752Zm0,0" transform="translate(0 -0.376)" fill="#fff"/>
+                                  </svg>
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Vuelos</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="opcion-menu-buscador p-5">
-                        <div class="ico-opcion-menu-buscador contenedor-25">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15.758" height="11.292" viewBox="0 0 15.758 11.292">
-                                <path id="plane" d="M1.879,7.089a.276.276,0,0,0-.135.361l.62,1.33a.275.275,0,0,0,.364.135L7.408,6.728l-.424,4.434a.275.275,0,0,0,.091.231,1.2,1.2,0,0,0,.727.275.885.885,0,0,0,.217-.027A1.4,1.4,0,0,0,8.9,10.625l1.842-5.455,3.649-1.7c1.074-.5,1.628-1.517,1.256-2.31A1.394,1.394,0,0,0,14.566.405a2.553,2.553,0,0,0-1.5.231L8.851,2.611,4.324.84A1.4,1.4,0,0,0,2.986.86a1.123,1.123,0,0,0-.41.889.276.276,0,0,0,.118.218l3.049,2.1L4,4.889,1.069,4.145a.276.276,0,0,0-.306.132L.033,5.591a.275.275,0,0,0,.143.388l2.167.9ZM3.14,1.611a.471.471,0,0,1,.165-.3c.157-.113.443-.1.826.047L8.163,2.933l-1.84.859ZM.661,5.588l.479-.851,2.817.7A.276.276,0,0,0,4.14,5.42L13.3,1.143A2.013,2.013,0,0,1,14.472.956a.862.862,0,0,1,.672.435c.231.5-.223,1.22-.992,1.578L10.98,4.456l.193-.57a.28.28,0,1,0-.531-.176L8.375,10.454c-.135.383-.3.612-.49.661a.466.466,0,0,1-.336-.063L8.1,5.268a.277.277,0,0,0-.551-.052L7.463,6.1,2.738,8.3,2.35,7.477l.776-.363a.275.275,0,0,0,0-.5Zm0,0" transform="translate(0 -0.376)" fill="#fff"/>
-                              </svg>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="12.664" height="12.664" viewBox="0 0 12.664 12.664">
-                                <path id="solid_h-square" data-name="solid h-square" d="M12.664,33.357v9.95a1.357,1.357,0,0,1-1.357,1.357H1.357A1.357,1.357,0,0,1,0,43.307v-9.95A1.357,1.357,0,0,1,1.357,32h9.95A1.357,1.357,0,0,1,12.664,33.357ZM9.5,34.714h-.9a.452.452,0,0,0-.452.452v2.261H4.523V35.166a.452.452,0,0,0-.452-.452h-.9a.452.452,0,0,0-.452.452V41.5a.452.452,0,0,0,.452.452h.9a.452.452,0,0,0,.452-.452V39.237H8.141V41.5a.452.452,0,0,0,.452.452h.9A.452.452,0,0,0,9.95,41.5V35.166A.452.452,0,0,0,9.5,34.714Z" transform="translate(0 -32)" fill="#fff"/>
-                              </svg>
-                        </div>                        
-                                                   
-                        <p>Vuelos</p>
+                    <div class="boton-barra-buscador contenedor-100">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-25">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15.758" height="11.292" viewBox="0 0 15.758 11.292">
+                                    <path id="plane" d="M1.879,7.089a.276.276,0,0,0-.135.361l.62,1.33a.275.275,0,0,0,.364.135L7.408,6.728l-.424,4.434a.275.275,0,0,0,.091.231,1.2,1.2,0,0,0,.727.275.885.885,0,0,0,.217-.027A1.4,1.4,0,0,0,8.9,10.625l1.842-5.455,3.649-1.7c1.074-.5,1.628-1.517,1.256-2.31A1.394,1.394,0,0,0,14.566.405a2.553,2.553,0,0,0-1.5.231L8.851,2.611,4.324.84A1.4,1.4,0,0,0,2.986.86a1.123,1.123,0,0,0-.41.889.276.276,0,0,0,.118.218l3.049,2.1L4,4.889,1.069,4.145a.276.276,0,0,0-.306.132L.033,5.591a.275.275,0,0,0,.143.388l2.167.9ZM3.14,1.611a.471.471,0,0,1,.165-.3c.157-.113.443-.1.826.047L8.163,2.933l-1.84.859ZM.661,5.588l.479-.851,2.817.7A.276.276,0,0,0,4.14,5.42L13.3,1.143A2.013,2.013,0,0,1,14.472.956a.862.862,0,0,1,.672.435c.231.5-.223,1.22-.992,1.578L10.98,4.456l.193-.57a.28.28,0,1,0-.531-.176L8.375,10.454c-.135.383-.3.612-.49.661a.466.466,0,0,1-.336-.063L8.1,5.268a.277.277,0,0,0-.551-.052L7.463,6.1,2.738,8.3,2.35,7.477l.776-.363a.275.275,0,0,0,0-.5Zm0,0" transform="translate(0 -0.376)" fill="#fff"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="12.664" height="12.664" viewBox="0 0 12.664 12.664">
+                                    <path id="solid_h-square" data-name="solid h-square" d="M12.664,33.357v9.95a1.357,1.357,0,0,1-1.357,1.357H1.357A1.357,1.357,0,0,1,0,43.307v-9.95A1.357,1.357,0,0,1,1.357,32h9.95A1.357,1.357,0,0,1,12.664,33.357ZM9.5,34.714h-.9a.452.452,0,0,0-.452.452v2.261H4.523V35.166a.452.452,0,0,0-.452-.452h-.9a.452.452,0,0,0-.452.452V41.5a.452.452,0,0,0,.452.452h.9a.452.452,0,0,0,.452-.452V39.237H8.141V41.5a.452.452,0,0,0,.452.452h.9A.452.452,0,0,0,9.95,41.5V35.166A.452.452,0,0,0,9.5,34.714Z" transform="translate(0 -32)" fill="#fff"/>
+                                  </svg>
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Vuelos + Hotel</p>
+                            </div>
+                        </a>
+                    </div>                    
+                    <div class="boton-barra-buscador contenedor-100">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-25">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18.422" height="18.422" viewBox="0 0 18.422 18.422">
+                                    <path id="solid_h-square" data-name="solid h-square" d="M18.422,33.974V48.448a1.974,1.974,0,0,1-1.974,1.974H1.974A1.974,1.974,0,0,1,0,48.448V33.974A1.974,1.974,0,0,1,1.974,32H16.448A1.974,1.974,0,0,1,18.422,33.974Zm-4.605,1.974H12.5a.658.658,0,0,0-.658.658V39.9H6.579v-3.29a.658.658,0,0,0-.658-.658H4.605a.658.658,0,0,0-.658.658v9.211a.658.658,0,0,0,.658.658H5.921a.658.658,0,0,0,.658-.658v-3.29h5.263v3.29a.658.658,0,0,0,.658.658h1.316a.658.658,0,0,0,.658-.658V36.605A.658.658,0,0,0,13.816,35.948Z" transform="translate(0 -32)" fill="#fff"/>
+                                  </svg>
+                                  
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Hoteles</p>
+                            </div>
+                        </a>
                     </div>
+                    <div class="boton-barra-buscador contenedor-100">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-25">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.422" height="20.076" viewBox="0 0 23.422 20.076">
+                                    <g id="suitcase" transform="translate(0 -32)">
+                                      <g id="Grupo_280" data-name="Grupo 280" transform="translate(0 32)">
+                                        <path id="Trazado_110" data-name="Trazado 110" d="M21.749,35.346H15.057V32.836A.838.838,0,0,0,14.22,32H9.2a.838.838,0,0,0-.836.836v2.509H1.673A1.678,1.678,0,0,0,0,37.019V50.4a1.678,1.678,0,0,0,1.673,1.673H21.749A1.678,1.678,0,0,0,23.422,50.4V37.019A1.678,1.678,0,0,0,21.749,35.346ZM9.2,32.836H14.22v2.509H9.2Zm-5.019,18.4H1.673A.838.838,0,0,1,.836,50.4V37.019a.79.79,0,0,1,.836-.836H4.182Zm14.22,0H5.019V36.182H18.4Zm4.182-.836a.838.838,0,0,1-.836.836H19.239V36.182h2.509a.838.838,0,0,1,.836.836Z" transform="translate(0 -32)" fill="#fff"/>
+                                      </g>
+                                    </g>
+                                  </svg>
+                                  
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Paquetes</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="boton-barra-buscador contenedor-100">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-25">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18.422" height="18.422" viewBox="0 0 18.422 18.422">
+                                    <path id="solid_h-square" data-name="solid h-square" d="M18.422,33.974V48.448a1.974,1.974,0,0,1-1.974,1.974H1.974A1.974,1.974,0,0,1,0,48.448V33.974A1.974,1.974,0,0,1,1.974,32H16.448A1.974,1.974,0,0,1,18.422,33.974Zm-4.605,1.974H12.5a.658.658,0,0,0-.658.658V39.9H6.579v-3.29a.658.658,0,0,0-.658-.658H4.605a.658.658,0,0,0-.658.658v9.211a.658.658,0,0,0,.658.658H5.921a.658.658,0,0,0,.658-.658v-3.29h5.263v3.29a.658.658,0,0,0,.658.658h1.316a.658.658,0,0,0,.658-.658V36.605A.658.658,0,0,0,13.816,35.948Z" transform="translate(0 -32)" fill="#fff"/>
+                                  </svg>
+                                  
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Booking</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="boton-barra-buscador contenedor-100">                        
+                        <a href="#">
+                            <div class="svg-contenedor-ico-buscador contenedor-25">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23.422" height="20.076" viewBox="0 0 23.422 20.076">
+                                    <g id="Grupo_281" data-name="Grupo 281" transform="translate(-155 -692.402)">
+                                      <g id="suitcase" transform="translate(155 660.402)">
+                                        <g id="Grupo_280" data-name="Grupo 280" transform="translate(0 32)">
+                                          <path id="Trazado_110" data-name="Trazado 110" d="M21.749,35.346H15.057V32.836A.838.838,0,0,0,14.22,32H9.2a.838.838,0,0,0-.836.836v2.509H1.673A1.678,1.678,0,0,0,0,37.019V50.4a1.678,1.678,0,0,0,1.673,1.673H21.749A1.678,1.678,0,0,0,23.422,50.4V37.019A1.678,1.678,0,0,0,21.749,35.346ZM9.2,32.836H14.22v2.509H9.2Zm-5.019,18.4H1.673A.838.838,0,0,1,.836,50.4V37.019a.79.79,0,0,1,.836-.836H4.182Zm14.22,0H5.019V36.182H18.4Zm4.182-.836a.838.838,0,0,1-.836.836H19.239V36.182h2.509a.838.838,0,0,1,.836.836Z" transform="translate(0 -32)" fill="#fff"/>
+                                        </g>
+                                      </g>
+                                      <rect id="Rectángulo_175" data-name="Rectángulo 175" width="2" height="7" rx="1" transform="translate(166 701)" fill="#fff"/>
+                                      <rect id="Rectángulo_176" data-name="Rectángulo 176" width="2" height="7" rx="1" transform="translate(170.5 703.5) rotate(90)" fill="#fff"/>
+                                    </g>
+                                  </svg>
+                                  
+                            </div>                            
+                            <div class="txt-contenedor-btn-buscador">
+                                <p>Asistencia en viaje</p>
+                            </div>
+                        </a>
+                    </div>
+                   
+                <!--     
                     <div class="opcion-menu-buscador p-5">
                         <div class="ico-opcion-menu-buscador contenedor-25 ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18.422" height="18.422" viewBox="0 0 18.422 18.422">
@@ -109,7 +186,7 @@
                         </div>
                                                                          
                         <p>Asistencia en viaje</p>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!--***************Area Buscador-->
@@ -154,7 +231,7 @@
                     <div class="contenedor-rutas-fecha p-2">
                         <div class="contenedor-busqueda contenedor-30">
                             <div class="txt-busqueda contenedor-85">
-                                <p>Destino</p>
+                                <p>Ida</p>
                                 <input class="contenedor-100" type="text" placeholder="09/06/2020">
                             </div>
                             <div class="contenedor-ico-busqueda contenedor-15">
@@ -165,7 +242,7 @@
                         </div> 
                         <div class="contenedor-busqueda contenedor-30">
                             <div class="txt-busqueda contenedor-85">
-                                <p>Destino</p>
+                                <p>Vuelta</p>
                                 <input class="contenedor-100" type="text" placeholder="09/06/2020">
                             </div>
                             <div class="contenedor-ico-busqueda contenedor-15">
@@ -176,7 +253,7 @@
                         </div> 
                         <div class="contenedor-busqueda contenedor-30">
                             <div class="txt-busqueda contenedor-85">
-                                <p>Destino</p>
+                                <p>Pasajeros</p>
                                 <input class="contenedor-100" type="text" placeholder="09/06/2020">
                             </div>
                             <div class="contenedor-ico-busqueda contenedor-15">
@@ -186,13 +263,13 @@
                             </div>                                                 
                         </div> 
                     </div>
-                    <div class="contenedor-mas-opciones-busuqeda">
-                        <div class="col-mas-opciones">
+                    <div class="contenedor-mas-opciones-busqueda p-2 ">
+                        <div class="col-mas-opciones contenedor-50">
                             <a href="#">+  Más Opciones</a>
                             <a href="#">+  Agregar otro destino</a>
                         </div>
-                        <div class="contenedor-btn-buscar">
-                            <button"><a href="#">Saludar</a></button>
+                        <div class="col-mas-opciones btn-naranjo contenedor-50">
+                            <a href="#" class="boton-naranjo contenedor-100">Busca tu vuelo</a>
                         </div>
                     </div>
                 </form>   
@@ -213,7 +290,14 @@
                 </div>
                 
             </article>
-            <article class="contenedor-destino contenedor-24"></article>
+            <article class="contenedor-destino contenedor-24">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+
+                    </figcaption>
+                </figure>
+            </article>
             <article class="contenedor-destino contenedor-24"></article>
             <article class="contenedor-destino contenedor-24"></article>
             <div class="titulos-sect-destino contenedor-100">

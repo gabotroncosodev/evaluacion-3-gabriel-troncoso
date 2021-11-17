@@ -2,5 +2,10 @@
 @import url(banner.css);
 @import url(buscador.css);
 @import url(footer.css);
+@import url(encabezados.css);
+@import url(botones.css);
+main .section-buscador {
+  position: relative;
+  top: -150px; }
 
 /*# sourceMappingURL=style.css.map */

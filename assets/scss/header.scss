@@ -4,19 +4,29 @@ $display-flex:var(--disp-flex);
 $color-blanco:var(--color-blanco);
 
 .header-principal{
-    height: 70px;
-    width: 100%;
-    background-color: $color-negro;  
-    nav{
-        display: $display-flex;
-        justify-content: space-between;
+    height: 80px;
+    background-color: $color-negro;
+    color: $color-blanco; 
+    display: $display-flex; 
+    align-items: center;  
+    position: relative;
+    .logo-header{
+        position: absolute;
+        left: 5px;
         p{
-            color: $color-blanco;
-            font-size: var(--fs-45);
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif ;
         }
-        ul{
+    }
+    nav{
+        ul{            
+        display: $display-flex;
+        justify-content: flex-end;
             a{
+                font-size: var(--fs-13);
+                width: 9%;
                 color: $color-blanco;
+                margin-left: 1%;
             }
         }
     }
