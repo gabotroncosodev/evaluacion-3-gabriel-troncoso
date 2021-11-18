@@ -1,3 +1,45 @@
+.caja-destino img {
+  object-fit: cover;
+  width: 100%; }
+.caja-destino .titulo-destino {
+  border-radius: 5px;
+  position: relative;
+  top: -5%;
+  left: -3%;
+  background-color: var(--color-terciario);
+  color: var(--color-blanco); }
+.caja-destino .contenedor-txt-destino {
+  margin-top: -3%;
+  font-weight: 700; }
 
+.section-alianzas .caja-destino-texto {
+  display: var(--disp-flex);
+  flex-direction: column;
+  justify-content: space-between; }
+  .section-alianzas .caja-destino-texto p {
+    border-radius: 5px; }
+
+.precio-txt-alianzas {
+  display: var(--disp-flex);
+  color: var(--color-primario);
+  font-weight: 200; }
+
+.section-partners-experiencias .contenedor-partners {
+  background-color: var(--color-blanco);
+  border-radius: 10px;
+  display: var(--disp-flex);
+  align-items: center;
+  justify-content: space-between; }
+  .section-partners-experiencias .contenedor-partners .elemento-partners img {
+    width: 100%;
+    object-fit: cover; }
+.section-partners-experiencias .contenedor-experiencias .tarjeta-experiencia {
+  height: 100px;
+  background-color: violet; }
+  .section-partners-experiencias .contenedor-experiencias .tarjeta-experiencia .foto-nombre-experiencia {
+    display: var(--disp-flex); }
+    .section-partners-experiencias .contenedor-experiencias .tarjeta-experiencia .foto-nombre-experiencia img {
+      height: 100%;
+      object-fit: contain; }
 
 /*# sourceMappingURL=tarjetas.css.map */

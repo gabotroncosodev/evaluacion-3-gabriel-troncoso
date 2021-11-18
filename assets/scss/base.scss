@@ -13,6 +13,8 @@
     --color-fondo-buscador:#002A4A;
     --color-negro:#000;
     --color-blanco:#fff;
+    --color-gris:#00000029;
+    --color-gris-claro:#F0F0F0;
 
     /*Display*/
     --disp-flex:flex;
@@ -25,6 +27,7 @@
     --fs-15:93.75%;
     --fs-16:100%;
     --fs-20:125%;
+    --fs-22:137.5%;
     --fs-25:156.25%;
     --fs-30:187.5%;
     --fs-35:218.75%;
@@ -48,8 +51,9 @@ a{
     text-decoration: none;
 }
 
-/*Colores fondo contenedores*/
 
+
+/*Colores fondo contenedores*/
 
 .bg-primario{background-color:var(--color-primario);}
 .bg-secundario{background-color:var(--color-secundario);}
@@ -57,6 +61,8 @@ a{
 .bg-fondo-buscador{background-color:var(--color-fondo-buscador);}
 .bg-negro{background-color:var(--color-negro);}
 .bg-blanco{background-color:var(--color-blanco);}
+.bg-gris{background-color:var(--color-gris);}
+.bg-gris-claro{background-color: var(--color-gris-claro);}
 
 /*fonts size*/
 .fs-9{font-size:var(--fs-9);}
@@ -65,6 +71,7 @@ a{
 .fs-15{font-size:var(--fs-15);}
 .fs-16{font-size:var(--fs-16);}
 .fs-20{font-size:var(--fs-20);}
+.fs-22{font-size:var(--fs-22);}
 .fs-25{font-size:var(--fs-25);}
 .fs-30{font-size:var(--fs-30);}
 .fs-35{font-size:var(--fs-35);}
@@ -72,6 +79,11 @@ a{
 .fs-50{font-size:var(--fs-50);}
 .fs-60{font-size:var(--fs-60);}
 
+/*Color fuentes*/
+.colorf-primario{color: var(--color-primario);}
+.colorf-secundario{color: var(--color-secundario);}
+.colorf-terciario{color: var(--color-terciario);}
+.colorf-blanco{color: var(--color-blanco);}
 
 /*tamanos contenedores*/
 .contenedor-base{
@@ -126,6 +138,9 @@ a{
 .contenedor-15{
     width: 15%;
 }
+.contenedor-10{
+    width: 10%;
+}
 
 /*padding*/
 .p-1{padding:1%;}
@@ -144,14 +159,15 @@ a{
 .py-6{padding-top:6%; padding-bottom:6%;}
 
 /*Padding coordenada X*/
-.px-1{padding: 1% 0;}
-.px-2{padding: 2% 0;}
-.px-3{padding: 3% 0;}
-.px-4{padding: 4% 0;}
-.px-5{padding: 5% 0;}
-.px-6{padding: 6% 0;}
+.px-1{padding-left: 1% 0; padding-right: 1%;}
+.px-2{padding-left: 2% 0; padding-right: 2%;}
+.px-3{padding-left: 3% 0; padding-right: 3%;}
+.px-4{padding-left: 4% 0; padding-right: 4%;}
+.px-5{padding-left: 5% 0; padding-right: 5%;}
+.px-6{padding-left: 6% 0; padding-right: 6%;}
 
 /*Margin coordenada X*/
+
 .mx-1{margin-left: 1%; margin-right: 1%}
 .mx-2{margin-left: 2%; margin-right: 2%}
 .mx-3{margin-left: 3%; margin-right: 3%}

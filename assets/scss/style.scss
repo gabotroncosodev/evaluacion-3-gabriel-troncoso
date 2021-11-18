@@ -4,12 +4,41 @@
 @import url(footer.css);
 @import url(encabezados.css);
 @import url(botones.css);
+@import url(tarjetas.css);
+@import url(efectos.css);
+
+
+$color-terciario: var(--color-terciario);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
 
 main{
     .section-buscador{
         position: relative;
         top: -150px;
     }
+    .section-destinos{
+        margin-top: -12%;
+        display: $display-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        .flecha-izquierda-verde{
+            position: absolute;
+            top: 50%;
+            left: 7%;
+        }
+        .flecha-derecha-verde{
+            position: absolute;
+            top: 50%;
+            right: 7%;
+        }             
+    }
+    .section-alianzas{
+        display: $display-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }   
 
     
 }

@@ -13,7 +13,10 @@ $color-primario:var(--color-primario);
     .contenedor-buscador{   
         background-color: $color-fondo-buscador;        
         display: $display-flex;
-        justify-content: space-between;        
+        justify-content: space-between;  
+        .buscador-menu{
+            background-color: $color-primario;
+        }      
         .buscador-opciones{
             .contenedor-rutas-busqueda{
                 @include flex-elementos();

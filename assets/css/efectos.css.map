@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,UAAU;EACN,kBAAkB,EAAE,mCAA+B;EACvD,UAAU,EAAE,mCAA+B",
+"sources": ["../scss/efectos.scss"],
 "names": [],
 "file": "efectos.css"
 }

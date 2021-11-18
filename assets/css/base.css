@@ -9,6 +9,8 @@
   --color-fondo-buscador:#002A4A;
   --color-negro:#000;
   --color-blanco:#fff;
+  --color-gris:#00000029;
+  --color-gris-claro:#F0F0F0;
   /*Display*/
   --disp-flex:flex;
   /*Tamaños fuentes*/
@@ -19,6 +21,7 @@
   --fs-15:93.75%;
   --fs-16:100%;
   --fs-20:125%;
+  --fs-22:137.5%;
   --fs-25:156.25%;
   --fs-30:187.5%;
   --fs-35:218.75%;
@@ -57,6 +60,12 @@ a {
 .bg-blanco {
   background-color: var(--color-blanco); }
 
+.bg-gris {
+  background-color: var(--color-gris); }
+
+.bg-gris-claro {
+  background-color: var(--color-gris-claro); }
+
 /*fonts size*/
 .fs-9 {
   font-size: var(--fs-9); }
@@ -76,6 +85,9 @@ a {
 .fs-20 {
   font-size: var(--fs-20); }
 
+.fs-22 {
+  font-size: var(--fs-22); }
+
 .fs-25 {
   font-size: var(--fs-25); }
 
@@ -93,6 +105,19 @@ a {
 
 .fs-60 {
   font-size: var(--fs-60); }
+
+/*Color fuentes*/
+.colorf-primario {
+  color: var(--color-primario); }
+
+.colorf-secundario {
+  color: var(--color-secundario); }
+
+.colorf-terciario {
+  color: var(--color-terciario); }
+
+.colorf-blanco {
+  color: var(--color-blanco); }
 
 /*tamanos contenedores*/
 .contenedor-base {
@@ -146,6 +171,9 @@ a {
 .contenedor-15 {
   width: 15%; }
 
+.contenedor-10 {
+  width: 10%; }
+
 /*padding*/
 .p-1 {
   padding: 1%; }
@@ -192,22 +220,28 @@ a {
 
 /*Padding coordenada X*/
 .px-1 {
-  padding: 1% 0; }
+  padding-left: 1% 0;
+  padding-right: 1%; }
 
 .px-2 {
-  padding: 2% 0; }
+  padding-left: 2% 0;
+  padding-right: 2%; }
 
 .px-3 {
-  padding: 3% 0; }
+  padding-left: 3% 0;
+  padding-right: 3%; }
 
 .px-4 {
-  padding: 4% 0; }
+  padding-left: 4% 0;
+  padding-right: 4%; }
 
 .px-5 {
-  padding: 5% 0; }
+  padding-left: 5% 0;
+  padding-right: 5%; }
 
 .px-6 {
-  padding: 6% 0; }
+  padding-left: 6% 0;
+  padding-right: 6%; }
 
 /*Margin coordenada X*/
 .mx-1 {

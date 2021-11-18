@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,EAAE;EACE,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,KAAK",
+"sources": ["encabezados.scss"],
+"names": [],
+"file": "encabezados.css"
+}

@@ -5,7 +5,7 @@ $color-blanco:var(--color-blanco);
 $color-fondo-buscador:var(--color-fondo-buscador);
 $color-primario:var(--color-primario);
 
-.boton-naranjo{
+/* .boton-naranjo{
     padding: 5px;
     background-color: $color-secundario;
     color: $color-blanco;
@@ -15,12 +15,29 @@ $color-primario:var(--color-primario);
         color: $color-blanco;
         font-weight: 700;        
     }
+} */
+
+.btn-naranjo{
+    background-color: $color-secundario;
+    p{
+        padding: 1%;
+        background-color: $color-secundario;
+        border-radius: 5px;
+        text-align: center;
+        color: $color-blanco;
+    }
+    
+    
+    
+
 }
+
+/*Botones barra izquierda buscador vuelos*/
 .boton-barra-buscador{
     padding: 5px;    
     a{
         display: $display-flex;
-        height: 50px;
+        height: 40px;
         .svg-contenedor-ico-buscador{
             height: 100%;
             display: $display-flex;

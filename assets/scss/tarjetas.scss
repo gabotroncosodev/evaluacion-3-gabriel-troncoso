@@ -1,0 +1,81 @@
+$color-secundario:var(--color-secundario);
+$color-negro:var(--color-negro);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+$color-fondo-buscador:var(--color-fondo-buscador);
+$color-primario:var(--color-primario);
+$color-terciario: var(--color-terciario);
+$display-flex:var(--disp-flex);
+$color-blanco:var(--color-blanco);
+
+@mixin flex-col {
+    display: $display-flex;
+    flex-direction: column;
+}
+.caja-destino{
+    img{
+        object-fit: cover;
+        width: 100%;    
+    }
+    .titulo-destino{
+        border-radius: 5px;
+        position: relative;
+        top: -5%;
+        left: -3%;
+        background-color: $color-terciario;
+        color: $color-blanco;
+    }
+    .contenedor-txt-destino{
+        margin-top: -3%;
+        font-weight: 700;
+    }
+} 
+
+.section-alianzas{
+    .caja-destino-texto{
+        display: $display-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p{
+            border-radius: 5px;
+        }
+    }
+}
+
+.precio-txt-alianzas{
+    display: $display-flex;
+    color: $color-primario;
+    font-weight: 200;
+}
+
+
+.section-partners-experiencias{
+    .contenedor-partners{
+        background-color: $color-blanco;
+        border-radius: 10px;
+        display: $display-flex;
+        align-items: center;
+        justify-content: space-between;
+        .elemento-partners{
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .contenedor-experiencias{
+        .tarjeta-experiencia{
+            height: 100px;
+            background-color: violet;            
+            .foto-nombre-experiencia{
+                display: $display-flex;
+                img{
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+        
+    }
+}

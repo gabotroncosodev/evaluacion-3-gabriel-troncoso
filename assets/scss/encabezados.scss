@@ -1,6 +1,7 @@
-h1{}
-h2{}
-h3{}
-h4{}
-h5{}
-h6{}
+$color-primario:var(--color-primario);
+$color-terciario:var(--color-terciario);
+
+h2{
+    color: red;
+    padding-top: 500px;
+}

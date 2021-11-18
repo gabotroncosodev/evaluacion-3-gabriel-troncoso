@@ -1,18 +1,29 @@
-.boton-naranjo {
-  padding: 5px;
-  background-color: var(--color-secundario);
-  color: var(--color-blanco);
-  border-radius: 5px;
-  text-align: center; }
-  .boton-naranjo a {
-    color: var(--color-blanco);
-    font-weight: 700; }
+/* .boton-naranjo{
+    padding: 5px;
+    background-color: $color-secundario;
+    color: $color-blanco;
+    border-radius: 5px;
+    text-align: center;
+    a{
+        color: $color-blanco;
+        font-weight: 700;        
+    }
+} */
+.btn-naranjo {
+  background-color: var(--color-secundario); }
+  .btn-naranjo p {
+    padding: 1%;
+    background-color: var(--color-secundario);
+    border-radius: 5px;
+    text-align: center;
+    color: var(--color-blanco); }
 
+/*Botones barra izquierda buscador vuelos*/
 .boton-barra-buscador {
   padding: 5px; }
   .boton-barra-buscador a {
     display: var(--disp-flex);
-    height: 50px; }
+    height: 40px; }
     .boton-barra-buscador a .svg-contenedor-ico-buscador {
       height: 100%;
       display: var(--disp-flex);

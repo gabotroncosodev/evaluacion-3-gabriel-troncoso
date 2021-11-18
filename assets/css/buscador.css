@@ -2,6 +2,8 @@
   background-color: var(--color-fondo-buscador);
   display: var(--disp-flex);
   justify-content: space-between; }
+  .section-buscador .contenedor-buscador .buscador-menu {
+    background-color: var(--color-primario); }
   .section-buscador .contenedor-buscador .buscador-opciones .contenedor-rutas-busqueda {
     display: var(--disp-flex);
     justify-content: space-between; }

@@ -4,8 +4,28 @@
 @import url(footer.css);
 @import url(encabezados.css);
 @import url(botones.css);
+@import url(tarjetas.css);
+@import url(efectos.css);
 main .section-buscador {
   position: relative;
   top: -150px; }
+main .section-destinos {
+  margin-top: -12%;
+  display: var(--disp-flex);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative; }
+  main .section-destinos .flecha-izquierda-verde {
+    position: absolute;
+    top: 50%;
+    left: 7%; }
+  main .section-destinos .flecha-derecha-verde {
+    position: absolute;
+    top: 50%;
+    right: 7%; }
+main .section-alianzas {
+  display: var(--disp-flex);
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */
